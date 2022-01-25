@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   height="22"
+   viewBox="0 0 22 22"
+   width="22"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="other_simple.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs35" />
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="34.863636"
+     inkscape:cx="11"
+     inkscape:cy="11"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg31" />
+  <path
+     style="color:#000000;fill:#2d2e32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none"
+     d="M 1,0 A 1.0001,1.0001 0 0 0 0,1 V 8 A 1.0001,1.0001 0 0 0 1,9 H 8 A 1.0001,1.0001 0 0 0 9,8 V 1 A 1.0001,1.0001 0 0 0 8,0 Z M 2,2 H 7 V 7 H 2 Z"
+     id="path23" />
+  <path
+     style="color:#000000;fill:#2d2e32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none"
+     d="m 14,13 a 1.0001,1.0001 0 0 0 -1,1 v 7 a 1.0001,1.0001 0 0 0 1,1 h 7 a 1.0001,1.0001 0 0 0 1,-1 v -7 a 1.0001,1.0001 0 0 0 -1,-1 z m 1,2 h 5 v 5 h -5 z"
+     id="path25" />
+  <path
+     style="color:#000000;fill:#2d2e32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none"
+     d="m 1,13 a 1.0001,1.0001 0 0 0 -1,1 v 7 a 1.0001,1.0001 0 0 0 1,1 H 8 A 1.0001,1.0001 0 0 0 9,21 V 14 A 1.0001,1.0001 0 0 0 8,13 Z m 1,2 h 5 v 5 H 2 Z"
+     id="path27" />
+  <path
+     style="color:#000000;fill:#2d2e32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none"
+     d="M 20.292969,1.2929687 16,5.5859375 14.707031,4.2929687 a 1,1 0 0 0 -1.414062,0 1,1 0 0 0 0,1.4140625 l 2,2 a 1.0001,1.0001 0 0 0 1.414062,0 l 5,-4.9999999 a 1,1 0 0 0 0,-1.4140626 1,1 0 0 0 -1.414062,0 z"
+     id="path29" />
+</svg>

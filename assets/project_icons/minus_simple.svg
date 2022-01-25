@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   height="2"
+   viewBox="0 0 23 2"
+   width="23"
+   version="1.1"
+   id="svg1398"
+   sodipodi:docname="minus_simple.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1402" />
+  <sodipodi:namedview
+     id="namedview1400"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="48.478261"
+     inkscape:cx="11.5"
+     inkscape:cy="1.0004484"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1398" />
+  <path
+     style="color:#000000;fill:#2d2e32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;-inkscape-stroke:none"
+     d="M 1,0 A 1,1 0 0 0 0,1 1,1 0 0 0 1,2 H 22 A 1,1 0 0 0 23,1 1,1 0 0 0 22,0 Z"
+     id="path1396" />
+</svg>

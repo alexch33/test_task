@@ -1,0 +1,3 @@
+class DBConstants {
+  DBConstants._();
+}
