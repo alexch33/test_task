@@ -55,6 +55,8 @@ class MyApp extends StatelessWidget {
         store: store..dispatch(AppDataLoadingAction()),
         child: MaterialApp(
           debugShowCheckedModeBanner: false,
+          theme: Theme.of(context)
+              .copyWith(scaffoldBackgroundColor: const Color(0xfff2f4fa)),
           title: Strings.appName,
           routes: Routes.routes,
           home: HomeScreen(),

@@ -32,14 +32,14 @@ class AppDataSelectCategoryAction {
   AppDataSelectCategoryAction(this.selectedCategory);
 }
 
-class AddArticleToCartAction {
+class AppDataAddArticleToCartAction {
   final ArticleModel articleToAdd;
 
-  AddArticleToCartAction(this.articleToAdd);
+  AppDataAddArticleToCartAction(this.articleToAdd);
 }
 
-class RemoveArticleFromCartAction {
+class AppDataRemoveArticleFromCartAction {
   final ArticleModel articleToRemove;
 
-  RemoveArticleFromCartAction(this.articleToRemove);
+  AppDataRemoveArticleFromCartAction(this.articleToRemove);
 }

@@ -37,4 +37,13 @@ class AppState {
 
     return result;
   }
+
+  int totalCartCount() {
+    int result = 0;
+    for (MapEntry<ArticleModel, int> entry in cart.entries) {
+      result += entry.value;
+    }
+
+    return result;
+  }
 }
