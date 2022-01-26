@@ -45,33 +45,7 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
           ),
-          Column(
-            children: [
-              Row(
-                children: [
-                  Text("Categories"),
-                  Container(
-                    width: 30,
-                    height: 30,
-                    color: Colors.green,
-                  )
-                ],
-              ),
-              Expanded(
-                  child: SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Row(
-                      children: [
-                        InkWell(child: Text("category Name")),
-                        Text("1")
-                      ],
-                    ),
-                  ],
-                ),
-              ))
-            ],
-          )
+          LeftSideWidget()
         ],
       ),
     ));
