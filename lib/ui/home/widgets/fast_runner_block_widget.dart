@@ -116,6 +116,7 @@ class FastRunnersBlockWidget extends StatelessWidget {
                             margin: EdgeInsets.only(left: 18),
                             child: Text(
                               articles[index].name,
+                              overflow: TextOverflow.ellipsis,
                               softWrap: true,
                               maxLines: 1,
                               style: TextStyle(
