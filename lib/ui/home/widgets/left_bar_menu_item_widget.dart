@@ -7,6 +7,7 @@ class LeftBarMenuItemWidget extends StatelessWidget {
   final int? size;
   final MaterialColor? color;
   final Function()? onTouch;
+  final bool isTransparent;
 
   const LeftBarMenuItemWidget(
       {Key? key,
@@ -14,7 +15,8 @@ class LeftBarMenuItemWidget extends StatelessWidget {
       this.isSelected = false,
       this.size,
       this.color,
-      this.onTouch})
+      this.onTouch,
+      this.isTransparent = false})
       : super(key: key);
 
   @override
@@ -40,7 +42,9 @@ class LeftBarMenuItemWidget extends StatelessWidget {
             width: size?.toDouble() ?? 32,
             child: SvgPicture.asset(
               svgChildPath,
-              color: color ?? (isSelected ? Colors.white : Colors.black),
+              color: isTransparent
+                  ? null
+                  : color ?? (isSelected ? Colors.white : Colors.black),
             ),
           ),
         ),

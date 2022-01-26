@@ -4,6 +4,7 @@ import 'widgets/fast_runner_block_widget.dart';
 import 'widgets/left_side_widget.dart';
 import 'widgets/options_block_widget.dart';
 
+import 'widgets/right_side_widget.dart';
 import 'widgets/table_block_widget.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -40,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                 margin: EdgeInsets.only(top: 32, right: 16),
                 child: TableBlockWidget()),
           ),
-          LeftSideWidget()
+          RightSideWidget()
         ],
       ),
     ));
