@@ -15,12 +15,14 @@ class FastRunnersBlockWidget extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(
-              "Fast Runners",
-              softWrap: true,
-              overflow: TextOverflow.ellipsis,
-              maxLines: 1,
-              style: TextStyle(fontSize: 24),
+            Expanded(
+              child: Text(
+                "Fast Runners",
+                softWrap: true,
+                overflow: TextOverflow.ellipsis,
+                maxLines: 1,
+                style: TextStyle(fontSize: 24),
+              ),
             ),
             StoreBuilder(
               builder: (BuildContext context, Store<AppState> store) => Row(
