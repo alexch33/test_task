@@ -72,7 +72,9 @@ class ArticleModel {
         id_departament: json[json.keys.first]['id_departament'],
         internal_name: json[json.keys.first]['internal_name'],
         main_price: json[json.keys.first]['main_price'],
-        purchase_price: json[json.keys.first]['purchase_price'],
+        purchase_price: json[json.keys.first]['purchase_price'] == 0
+            ? 1
+            : json[json.keys.first]['purchase_price'],
       );
 
   Map<String, dynamic> toMap() => {

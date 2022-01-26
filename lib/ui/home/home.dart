@@ -4,6 +4,8 @@ import 'widgets/fast_runner_block_widget.dart';
 import 'widgets/left_side_widget.dart';
 import 'widgets/options_block_widget.dart';
 
+import 'widgets/table_block_widget.dart';
+
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -34,13 +36,9 @@ class HomeScreen extends StatelessWidget {
           ),
           Expanded(
             flex: 3,
-            child: Column(
-              children: [
-                Container(
-                  color: Colors.blue,
-                )
-              ],
-            ),
+            child: Container(
+                margin: EdgeInsets.only(top: 32, right: 16),
+                child: TableBlockWidget()),
           ),
           LeftSideWidget()
         ],
