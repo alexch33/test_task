@@ -76,9 +76,11 @@ class FastRunnersBlockWidget extends StatelessWidget {
                   String price = articles[index].purchase_price != 0
                       ? articles[index].purchase_price.toString()
                       : "1";
+                  bool isPresentInCart =
+                      ((store.state.cart[articles[index]] ?? 0) > 0);
 
                   return Material(
-                    color: Colors.white,
+                    color: isPresentInCart ? Color(0xff8ec6d1) : Colors.white,
                     borderRadius: borderRadius,
                     child: InkWell(
                       borderRadius: borderRadius,
@@ -108,7 +110,9 @@ class FastRunnersBlockWidget extends StatelessWidget {
                                         (store.state.cart[articles[index]] ?? 0)
                                             .toString(),
                                         style: TextStyle(
-                                            color: Colors.grey[300],
+                                            color: isPresentInCart
+                                                ? Colors.white
+                                                : Colors.grey[300],
                                             fontSize: 18),
                                       ),
                                     )
@@ -119,7 +123,10 @@ class FastRunnersBlockWidget extends StatelessWidget {
                                   child: Text(
                                     "32",
                                     style: TextStyle(
-                                        color: Colors.grey[300], fontSize: 18),
+                                        color: isPresentInCart
+                                            ? Colors.white
+                                            : Colors.grey[300],
+                                        fontSize: 18),
                                   ),
                                 )
                               ],
@@ -132,7 +139,11 @@ class FastRunnersBlockWidget extends StatelessWidget {
                                 softWrap: true,
                                 maxLines: 1,
                                 style: TextStyle(
-                                    fontSize: 16, fontWeight: FontWeight.bold),
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    color: isPresentInCart
+                                        ? Colors.white
+                                        : Colors.black),
                               ),
                             ),
                             Row(
@@ -144,7 +155,9 @@ class FastRunnersBlockWidget extends StatelessWidget {
                                       "50 ml",
                                       softWrap: true,
                                       style: TextStyle(
-                                          color: Colors.grey[300],
+                                          color: isPresentInCart
+                                              ? Colors.white
+                                              : Colors.grey[300],
                                           fontSize: 14),
                                     )),
                                 Container(
@@ -154,7 +167,9 @@ class FastRunnersBlockWidget extends StatelessWidget {
                                       softWrap: true,
                                       overflow: TextOverflow.ellipsis,
                                       style: TextStyle(
-                                          color: Colors.grey[300],
+                                          color: isPresentInCart
+                                              ? Colors.white
+                                              : Colors.grey[300],
                                           fontSize: 14),
                                     ))
                               ],
