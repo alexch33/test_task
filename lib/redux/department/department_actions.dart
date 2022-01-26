@@ -1,4 +1,3 @@
-
 import 'package:until_pro_exercise/models/article/article.dart';
 import 'package:until_pro_exercise/models/department/department.dart';
 
@@ -25,4 +24,22 @@ class AppDataResult {
   final Map<DepartmentModel, List<ArticleModel>> appData;
 
   AppDataResult(this.appData);
+}
+
+class AppDataSelectCategoryAction {
+  final DepartmentModel selectedCategory;
+
+  AppDataSelectCategoryAction(this.selectedCategory);
+}
+
+class AddArticleToCartAction {
+  final ArticleModel articleToAdd;
+
+  AddArticleToCartAction(this.articleToAdd);
+}
+
+class RemoveArticleFromCartAction {
+  final ArticleModel articleToRemove;
+
+  RemoveArticleFromCartAction(this.articleToRemove);
 }

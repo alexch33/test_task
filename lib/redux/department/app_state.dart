@@ -25,4 +25,16 @@ class AppState {
         selectedCategory: selectedCategory ?? this.selectedCategory,
         cart: cart ?? this.cart);
   }
+
+  List<ArticleModel> selectedCategoryArticles() =>
+      this.appData[this.selectedCategory] ?? [];
+
+  double totalCartPrice() {
+    double result = 0;
+    for (MapEntry<ArticleModel, int> entry in cart.entries) {
+      result += entry.key.purchase_price * entry.value;
+    }
+
+    return result;
+  }
 }
