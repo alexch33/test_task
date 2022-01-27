@@ -20,7 +20,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/search_colored.svg',
+                      svgChildPath: 'assets/project_icons/search_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Search")
@@ -29,7 +29,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/info_colored.svg',
+                      svgChildPath: 'assets/project_icons/info_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Info")
@@ -38,7 +38,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/cash_colored.svg',
+                      svgChildPath: 'assets/project_icons/cash_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Cash")
@@ -47,7 +47,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/options_colored.svg',
+                      svgChildPath: 'assets/project_icons/options_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Options")
@@ -56,7 +56,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/supplements_colored.svg',
+                      svgChildPath: 'assets/project_icons/supplements_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Supplements")
@@ -65,7 +65,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/messages_colored.svg',
+                      svgChildPath: 'assets/project_icons/messages_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Messages")
@@ -74,7 +74,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/allergens_colored.svg',
+                      svgChildPath: 'assets/project_icons/allergens_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Allergens")
@@ -83,7 +83,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/repeat_colored.svg',
+                      svgChildPath: 'assets/project_icons/repeat_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Repeat")
@@ -92,7 +92,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/seat_name_colored.svg',
+                      svgChildPath: 'assets/project_icons/seat_name_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Seat name")
@@ -101,7 +101,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/client_colored.svg',
+                      svgChildPath: 'assets/project_icons/client_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Client")
@@ -110,7 +110,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/client_history_colored.svg',
+                      svgChildPath: 'assets/project_icons/client_history_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Client History")
@@ -119,7 +119,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/tip_colored.svg',
+                      svgChildPath: 'assets/project_icons/tip_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Tip")
@@ -128,7 +128,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/dinner_colored.svg',
+                      svgChildPath: 'assets/project_icons/dinner_colored.svg',
                       isTransparent: true,
                     ),
                     Text("Dinner")
@@ -137,7 +137,7 @@ class RightSideWidget extends StatelessWidget {
                 Column(
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/history_colored.svg',
+                      svgChildPath: 'assets/project_icons/history_colored.svg',
                       isTransparent: true,
                     ),
                     Text("History")

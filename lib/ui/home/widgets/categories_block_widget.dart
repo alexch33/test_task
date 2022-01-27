@@ -26,7 +26,7 @@ class CategoriesBlockWidget extends StatelessWidget {
               ),
             ),
             LeftBarMenuItemWidget(
-                svgChildPath: 'project_icons/filter_simple.svg',
+                svgChildPath: 'assets/project_icons/filter_simple.svg',
                 size: 40,
                 color: Colors.grey)
           ],

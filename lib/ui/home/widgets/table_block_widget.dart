@@ -18,15 +18,17 @@ class TableBlockWidget extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    "Table 25",
-                    softWrap: true,
-                    overflow: TextOverflow.ellipsis,
-                    maxLines: 1,
-                    style: TextStyle(fontSize: 24),
+                  Flexible(
+                    child: Text(
+                      "Table 25",
+                      softWrap: true,
+                      overflow: TextOverflow.ellipsis,
+                      maxLines: 1,
+                      style: TextStyle(fontSize: 24),
+                    ),
                   ),
                   LeftBarMenuItemWidget(
-                    svgChildPath: 'project_icons/resize_simple.svg',
+                    svgChildPath: 'assets/project_icons/resize_simple.svg',
                     color: Colors.grey,
                     size: 32,
                   ),

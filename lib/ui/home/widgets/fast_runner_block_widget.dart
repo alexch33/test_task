@@ -28,7 +28,7 @@ class FastRunnersBlockWidget extends StatelessWidget {
               builder: (BuildContext context, Store<AppState> store) => Row(
                 children: [
                   LeftBarMenuItemWidget(
-                    svgChildPath: 'project_icons/minus_simple.svg',
+                    svgChildPath: 'assets/project_icons/minus_simple.svg',
                     color: Colors.grey,
                     size: 24,
                   ),
@@ -42,7 +42,7 @@ class FastRunnersBlockWidget extends StatelessWidget {
                     ),
                   ),
                   LeftBarMenuItemWidget(
-                    svgChildPath: 'project_icons/plus_simple.svg',
+                    svgChildPath: 'assets/project_icons/plus_simple.svg',
                     color: Colors.grey,
                     size: 24,
                   ),

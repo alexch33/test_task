@@ -23,45 +23,45 @@ class LeftSideWidget extends StatelessWidget {
                     height: 40,
                     width: 40,
                     margin: EdgeInsets.all(16),
-                    child: Image.asset('icons/ic_appicon.png')),
+                    child: Image.asset('assets/icons/ic_appicon.png')),
                 Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/hide_simple.svg',
+                      svgChildPath: 'assets/project_icons/hide_simple.svg',
                     ),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/house_simple.svg',
+                      svgChildPath: 'assets/project_icons/house_simple.svg',
                     ),
                     CustomDividerLeftSide(),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/orders_simple.svg',
+                      svgChildPath: 'assets/project_icons/orders_simple.svg',
                       isSelected: true,
                     ),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/other_simple.svg',
+                      svgChildPath: 'assets/project_icons/other_simple.svg',
                     ),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/discounts_simple.svg',
+                      svgChildPath: 'assets/project_icons/discounts_simple.svg',
                     ),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/history_simple.svg',
+                      svgChildPath: 'assets/project_icons/history_simple.svg',
                     ),
                     CustomDividerLeftSide(),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/stock_simple.svg',
+                      svgChildPath: 'assets/project_icons/stock_simple.svg',
                     ),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/stock_simple.svg',
+                      svgChildPath: 'assets/project_icons/stock_simple.svg',
                     ),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/reports_simple.svg',
+                      svgChildPath: 'assets/project_icons/reports_simple.svg',
                     ),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/control_simple.svg',
+                      svgChildPath: 'assets/project_icons/control_simple.svg',
                     ),
                     LeftBarMenuItemWidget(
-                      svgChildPath: 'project_icons/manager_simple.svg',
+                      svgChildPath: 'assets/project_icons/manager_simple.svg',
                     ),
                   ],
                 ),
@@ -71,7 +71,7 @@ class LeftSideWidget extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       LeftBarMenuItemWidget(
-                        svgChildPath: 'project_icons/logout_simple.svg',
+                        svgChildPath: 'assets/project_icons/logout_simple.svg',
                       ),
                       Container(
                         margin: EdgeInsets.only(bottom: 16),

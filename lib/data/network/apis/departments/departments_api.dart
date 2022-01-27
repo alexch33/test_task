@@ -11,7 +11,7 @@ class DepartmensApi {
   DepartmensApi(this._dioClient);
 
   Future<dynamic> fetchDataFromAssets() async {
-    var jsonText = await rootBundle.loadString('data/data.json');
+    var jsonText = await rootBundle.loadString('assets/data/data.json');
     return jsonDecode(jsonText);
   }
 }
