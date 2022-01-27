@@ -161,12 +161,14 @@ class TableBlockWidget extends StatelessWidget {
                   child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    "Total:",
-                    softWrap: true,
-                    overflow: TextOverflow.ellipsis,
-                    maxLines: 1,
-                    style: TextStyle(color: Colors.grey, fontSize: 14),
+                  Flexible(
+                    child: Text(
+                      "Total:",
+                      softWrap: true,
+                      overflow: TextOverflow.ellipsis,
+                      maxLines: 1,
+                      style: TextStyle(color: Colors.grey, fontSize: 14),
+                    ),
                   ),
                   StoreBuilder(
                     builder: (BuildContext context, Store<AppState> store) =>

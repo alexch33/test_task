@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:until_pro_exercise/widgets/empty_app_bar_widget.dart';
 import 'widgets/categories_block_widget.dart';
 import 'widgets/fast_runner_block_widget.dart';
 import 'widgets/left_side_widget.dart';
@@ -11,6 +12,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: EmptyAppBar(),
         body: SizedBox(
       height: double.infinity,
       child: Row(
